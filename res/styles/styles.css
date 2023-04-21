@@ -1,0 +1,153 @@
+/*HTML*/
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+h6 {
+  margin: 0;
+}
+h3 {
+  padding: 0;
+  margin: 15px 0;
+}
+
+main {
+  margin: 0 3rem;
+  text-align: center;
+}
+
+/*Header*/
+
+.f-header-cnt {
+  background-color: black;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 3px 3px rgb(65, 65, 65);
+}
+
+.f-head-menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+.f-head-menu li {
+  padding-right: 15px;
+  margin: 0;
+  list-style: none;
+  text-decoration: underline;
+}
+
+.f-head-logo {
+  padding-left: 10px;
+}
+
+.f-head-logo img {
+  height: 50px;
+}
+
+/* Main */
+
+.main-content {
+  display: inline-flex;
+  margin: 122px 20px;
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.f-main-img {
+  height: 100%x;
+  opacity: 0.8;
+}
+.f-main-header {
+  position: absolute;
+  display: inline;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.f-main-featured {
+  display: inline-flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-main-featured-imgs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.f-imgs img {
+  display: flex;
+  width: 300px;
+  height: 200px;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 20px 10px;
+}
+.f-imgs-captions {
+  flex-direction: row;
+  justify-content: baseline;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.f-main-locations {
+  width: 100%;
+  height: 500px;
+  margin-top: 100px;
+  display: inline-flex;
+  width: 1200px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: url(/res/img/img-locations-background.jpg);
+}
+.f-main-loc-captions {
+  width: 300px;
+  height: 60%;
+  display: inline-flex;
+  justify-content: center;
+  background-color: black;
+  opacity: 0.8;
+  margin: 0 40px;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* Footer */
+
+.footer-flex-cont {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.footer-bottom {
+  text-align: left;
+  margin-left: 20px;
+}
